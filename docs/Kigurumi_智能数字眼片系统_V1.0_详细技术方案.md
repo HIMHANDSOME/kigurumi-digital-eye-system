@@ -1,5 +1,7 @@
 # Kigurumi 智能数字眼片系统 V1.0 详细技术方案
 
+> **2026-11-06 重要修订（覆盖优先于本文件旧措辞）**：本文件保留原先批准的用户需求与设计历史；最新工程判定请阅读 [可行性与经济性复核](research/Kigurumi_V1.0_可行性与经济性复核_2026-11-06.md) 和 [ADR-0001](decisions/ADR-0001-risk-gated-v1.md)。**约 7 英寸真正柔性彩色 EPD 尚无通过 G0 的料号、曲率、LUT/驱动授权与报价**；标准 7.3 英寸 Spectra 6 玻璃屏只能作为电气代理。RW612 / SR250 / SR040 均按“候选或原型优先路线”理解，SR250 实头壳 3D AoA 待验证。E-Ink V1 的交付范围调整为 STATIC + 有界 SEQUENCE + 2D Preview/手动 Send + Head Fit + UWB Tracking Preview；视频/高帧率动画/实时实体跟眼留给后续 OLED/LCD，3D Preview 不作为第一可用 MVP 阻塞项。原 P0–P18 分期可作 WBS，但 UWB 高风险台架应与 P0 并行；P16 Final PCB 必须等待证据 Gate。任何供应链价格、工期、功耗均为待确认的工程假设。
+
 > 文档状态：V1.0 基线方案  
 > 项目类型：Kigurumi 头壳数字眼片 / 可穿戴显示 / 无光学追踪系统  
 > 当前主显示路线：左右各 1 块约 7 英寸柔性彩色电子纸  

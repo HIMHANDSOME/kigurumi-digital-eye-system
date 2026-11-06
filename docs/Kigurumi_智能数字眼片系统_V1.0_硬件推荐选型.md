@@ -1,5 +1,7 @@
 # Kigurumi 智能数字眼片系统 V1.0 硬件推荐选型
 
+> **2026-11-06 复核更新：本文件是候选清单而非可直接下单的最终 BOM。** 最新证据与风险参见 [研究归档](research/Kigurumi_V1.0_可行性与经济性复核_2026-11-06.md)、[ADR-0001](decisions/ADR-0001-risk-gated-v1.md)、[P0 RFQ/Test Gate](validation/P0-flexible-color-epd-gate.md)。常见 7.3 英寸 Spectra 6 全彩玻璃 EPD **不能替代真正柔性彩色 EPD**；不得依据公开玻璃屏价格推断真柔性量产价格。RW612 是 Control Plane 优先候选；SR250 原厂支持 3D/360° AoA，但实际头壳佩戴后的覆盖/精度、SR040 Beacon 互操作和射频区域合规均未完成测试。EPD 电源型号/电压/功耗继续暂不锁定；P16 前必须完成 G0、G1、G4 和电源/结构验收。不应在 V1 强制实现高 FPS 视频解码。
+
 > 文档状态：V1.0 硬件选型基线  
 > 更新时间：2026-10-05  
 > 适用仓库：`HIMHANDSOME/kigurumi-digital-eye-system`  
